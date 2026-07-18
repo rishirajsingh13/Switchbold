@@ -1,0 +1,8 @@
+{
+  "name": "switchbold-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd Frontend && npm install && npm run build && cd .. && rm -rf dist && cp -r Frontend/dist dist"
+  }
+}
